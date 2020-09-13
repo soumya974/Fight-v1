@@ -36,6 +36,8 @@ var HSCORE;
 var NAME;
 
 function preload(){
+//image
+img = loadImage('images/nasa.jpg');
 }
 
 function setup() {
@@ -45,7 +47,6 @@ createCanvas(1000, 1000);
 engine = Engine.create();
 world = engine.world;
 //image
-img = loadImage('images/nasa.jpg');
 img1 = loadImage('images/died.png');
 img2 = loadImage('images/fight.jpg');
 //enemy
